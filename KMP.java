@@ -1,4 +1,3 @@
-static int MAX_N ;
 	static char T[] , P[];
 	static int b[] , n , m;
 
