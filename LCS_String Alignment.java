@@ -1,5 +1,6 @@
 	public static int matchScore (char x , char y)
 	{
+		// If we want LCS misMatch = -INF , space = 0 , matchScore = 1
 		int spaceScore = -1 , misMatchScore = -1 , matchScore = 2;
 		if(x==' ' || y==' ')
 			return spaceScore;
